@@ -1,0 +1,10 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* background-image: url('file:///Users/Porscha/Desktop/UND-app/UND-app/public/images/urban.jpeg'); */
+  background-color: cyan;
+}
+
+a {
+  color: #00B7FF;
+}

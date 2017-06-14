@@ -1,8 +1,9 @@
-body {
-  padding: 50px;
+.container-fluid{
+  /* padding: 50px; */
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image: url('../images/urban.jpeg');
-  /* height: 500px; */
+  background-repeat:  no-repeat;
+  height: 751px;
 }
 
 a {
@@ -11,13 +12,148 @@ a {
 
 h1{
 	font-family:'Girl Next Door' ;
-	color: white;
-
-}
-h2{
-	font-family: 'Berkshire+Swash';
-
+	color: navajowhite;
+    font-size: 12em;
+    margin-bottom: 54px;
 }
 h3{
-
+    font-family:'Girl Next Door' ;
+    color: crimson;
+    font-size: 6em;
 }
+
+.connect {
+    width: 100%;
+    margin: 100px 0;
+}
+
+.connect form {
+    margin-top: 10px;
+    width: 480px;
+    margin: 0 auto;
+}
+
+.connect form input[type=text] {
+    width: 338px;
+    height: 46px;
+    border: 5px solid navajowhite;
+    border-right: none;
+    background: none;
+    -webkit-border-top-left-radius: 99px; -webkit-border-bottom-left-radius-radius: 99px;
+    -moz-border-radius-topleft: 99px; -moz-border-radius-bottomleft: 99px;
+    border-top-left-radius: 99px; border-bottom-left-radius: 99px;
+    font-size: 27px;
+    font-weight: bold;
+    padding: 0 0 0 20px;
+    color: black;
+    font-weight: bold;
+    float: left;
+    background-color:white ;
+    opacity: 0.65;
+    border-color: navajowhite;
+}
+
+.connect form input[type=text]:hover {
+    opacity: 0.8;
+}
+
+.connect form input[type=text]:focus {
+    outline: none;
+    opacity: 1;
+}
+
+.connect form input[type=button], form input[type=submit] {
+    width: 119px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    -webkit-border-top-right-radius: 99px; -webkit-border-bottom-right-radius-radius: 99px;
+    -moz-border-radius-topright: 99px; -moz-border-radius-bottomright: 99px;
+    border-top-right-radius: 99px; border-bottom-right-radius: 99px;
+    background-color: #fff;
+    margin: 0; padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    float: left;
+    opacity: 0.65;
+}
+
+.connect form input[type=button]:hover, form input[type=submit]:hover {
+    opacity: 1;
+}
+
+.connect form input[type=button]:active, form input[type=submit]:active {
+    opacity: 0.8;
+}
+
+.main-color-text{
+   width: 874px;
+    height: 100px;
+    border: 5px solid navajowhite;
+    border-right: none;
+    background: none;
+    -webkit-border-top-left-radius: 99px; -webkit-border-bottom-left-radius-radius: 99px;
+    -moz-border-radius-top-left: 99px; -moz-border-radius-bottom-left: 99px;
+    border-top-left-radius: 99px; border-bottom-left-radius: 99px;
+    font-size: 33px;
+    font-weight: bold;
+    padding: 0 0 0 20px;
+    color: black;
+    font-weight: bold;
+    float: left;
+    background-color:white ;
+    opacity: 0.65;
+    border-color: navajowhite;
+    border-top-right-radius: 99px;
+    border-bottom-right-radius: 99px;
+    margin-bottom: 29px;
+    margin-left: 6px;
+}
+
+.writeup{
+    position: relative;
+    left: 306px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 50px;
+        /* text-align: center;
+        text-decoration: none; */
+    border-radius: 20%;
+}
+
+/* Add a hover effect if you want */
+/* .fa:hover {
+    opacity: 0.7;
+} */
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram{
+    background: #3B5998;
+    color: white;
+    margin-left: -914px;
+    margin-bottom: 58px;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+
+
+
+
+.required{
+    color:red;
+    font-weight:normal;
+}
+

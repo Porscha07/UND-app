@@ -15,13 +15,15 @@ h1{
 	color: navajowhite;
     font-size: 12em;
     margin-bottom: -102px;
+    text-shadow: 2px 2px navajowhite;
 }
 h3{
     font-family:'Girl Next Door' ;
     color: crimson;
     font-size: 6em;
+    text-shadow: 2px 2px crimson;
 }
-
+/* ******************************************Middle Section Text Code***************************** */
 .connect {
     width: 100%;
     margin: 100px 0;
@@ -87,7 +89,7 @@ h3{
 }
 
 .main-color-text{
-   width: 874px;
+   width: 854px;
     height: 100px;
     border: 5px solid navajowhite;
     /* border-right: none; */
@@ -100,22 +102,26 @@ h3{
     padding: 0 0 0 20px;
     color: black;
     font-weight: bold;
-    float: center;
+    /* float: */
     background-color:white ;
     opacity: 0.65;
-    border-color: navajowhite;
+    border-color: crimson;
     border-top-right-radius: 99px;
     border-bottom-right-radius: 99px;
     margin-bottom: 29px;
     margin-left: 257px;
+    margin-top: 5em;
+    text-align: center;
 }
 
 .writeup{
     position: relative;
     left: 306px;
+    margin-bottom: 1em;
 }
 
-/* Style all font awesome icons */
+
+/* ********************Social Media Button Code************************************* */
 .fa {
     padding: 20px;
     font-size: 15px;
@@ -125,41 +131,41 @@ h3{
     border-radius: 20%;
 }
 
-/* Add a hover effect if you want */
-/* .fa:hover {
-    opacity: 0.7;
-} */
-
-/* Set a specific color for each brand */
-
 /* Facebook */
 .fa-instagram{
     background: #3B5998;
     color: white;
-    margin-left: opx;
-    margin-bottom: 58px;
-    position: relative;
-    bottom:  -89px;
+    margin-left: 41em;
+    margin-bottom: 82px;
+    position: absolute;
+    margin-top: -10px;
+    /* bottom:  -89px; */
 }
 
 /* Twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
-    margin-top: 0px;
+    margin-top: -10px;
     margin-right: 6px;
-    position: relative;
-    bottom:  -89px;
+    position: absolute;
+    margin-bottom: 82px;
+    margin-left: 45em;
+    /* bottom:  -89px; */
 
 }
 
-
-
-
-
-
-.required{
+/* .required{
     color:red;
     font-weight:normal;
 }
+ */
 
+ /* ****************************Sign-Up Modal Code************************** */
+
+
+ .btn-btn-primary{
+   margin-left: 656px;
+   position: absolute;
+   margin-top: -181px;
+ }

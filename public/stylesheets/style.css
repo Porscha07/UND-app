@@ -1,7 +1,7 @@
 .container-fluid{
   /* padding: 50px; */
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url('../images/urban.jpeg');
+  background-image: url('../images/urbanpic.jpg');
   background-repeat:  no-repeat;
   height: 751px;
 }
@@ -164,8 +164,22 @@ h3{
  /* ****************************Sign-Up Modal Code************************** */
 
 
- .btn-btn-primary{
+ .btn-danger{
    margin-left: 656px;
    position: absolute;
    margin-top: -181px;
+ }
+
+ .modal{
+    height:48px; 
+    color: crimson ;
+ }
+
+ .btn-primary{
+    margin-left: 436px;
+    margin-top: -31px;
+ }
+
+ .input{
+    margin-top: 10px;
  }

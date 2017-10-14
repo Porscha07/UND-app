@@ -3,7 +3,8 @@
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image: url('../images/urbanpic.jpg');
   background-repeat:  no-repeat;
-  height: 751px;
+  height: 200vh;
+  /* width: 200vw; */
 }
 
 a {
@@ -165,9 +166,10 @@ h3{
 
 
  .btn-danger{
-   margin-left: 656px;
+   margin-left: 54em;
    position: absolute;
-   margin-top: -181px;
+   margin-top: -90em;
+   height: 4em;
  }
 
  .modal{

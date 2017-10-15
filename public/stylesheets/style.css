@@ -16,13 +16,13 @@ h1{
 	color: navajowhite;
     font-size: 12em;
     margin-bottom: -102px;
-    text-shadow: 2px 2px navajowhite;
+    /* text-shadow: 2px 2px navajowhite; */
 }
 h3{
     font-family:'Girl Next Door' ;
     color: crimson;
     font-size: 6em;
-    text-shadow: 2px 2px crimson;
+    /* text-shadow: 2px 2px crimson; */
 }
 /* ******************************************Middle Section Text Code***************************** */
 .connect {
